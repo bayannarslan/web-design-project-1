@@ -1,0 +1,82 @@
+@font-face {
+  font-family: "Caviar Dreams";
+  src: url("../fonts/Caviar-Dreams.ttf.woff") format("woff"),
+    url("../fonts/Caviar-Dreams.ttf.svg") format("svg"),
+    url("../fonts/Caviar-Dreams.ttf.eot") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Octuple max Solid";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Octuple max Solid"),
+  url("../fonts/Octuple-max-demo.woff") format("woff");
+}
+
+body {
+    font-family: "Caviar Dreams" !important
+}
+
+h1, h2 {
+    font-family: "Octuple max Solid" !important
+}
+
+body {
+  background-image: url(../images/blackartsviperhor.jpeg);
+  color: #333333;
+  font-family: "Caviar Dreams", sans-serif;
+  font-weight: bold;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  border-width: 3px;
+  font-family: "Octuple max Solid", sans-serif;
+  color: #333333;
+}
+header {
+  background-image: url(../images/astrokuromi.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+}
+
+h2 {
+  font-family: "Octuple max Solid", sans-serif;
+  text-align: left;
+}
+
+nav {
+  text-align: center;
+  border-radius: 40px;
+  padding: 15px;
+  background-color: #e8dafe;
+  opacity: 0.7;
+  border-style: solid;
+  border-width: 0.5px;
+  padding: 15px;
+  background-image: url(../images/chromestar.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: contain;
+}
+
+footer {
+  font-size: 0.8em;
+  font-style: italic;
+  text-align: center;
+}
+
+#wrapper {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 7px 7px 7px #b89dfd;
+  background: url(../images/kuromi.png) no-repeat left bottom,
+    url(../images/kuromi.png) no-repeat right bottom;
+  background-size: 100px, 100px;
+}
